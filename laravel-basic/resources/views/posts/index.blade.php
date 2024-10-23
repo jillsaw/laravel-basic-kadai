@@ -10,13 +10,13 @@
  <body>
     <table>
         <tr>
-            <th>タイトル</th>
-            <th>本文</th>
+             <th>タイトル</th>
+             <th>本文</th>
         </tr>
         @foreach($posts as $post)
           <tr>
              <td>{{ $post->title }}</td>
-             <td>{{ $post->content }}</td>
+             <td>{{ $post->content }}</td>       
           </tr>
         @endforeach  
     </table>
